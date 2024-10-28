@@ -18,9 +18,9 @@ iframe{
 
 .texto-chamada{
     display: flex;
-    align-items: center;
+    justify-content: center; 
 }
 .videopele{
     display: flex;
-    align-items: center;  
+    justify-content: center;  
 }
