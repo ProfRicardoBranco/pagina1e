@@ -3,7 +3,9 @@ body{
     color: white;
 }
 header{
-    background: rgb(0, 41, 175);
+    border-bottom: 5px blue;
+    margin: 0px;
+    padding: 20px;
 }
 div{
     background: orangered
