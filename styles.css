@@ -6,6 +6,7 @@ header{
     border-bottom: solid 2px blue;
     margin: 0px;
     padding: 20px;
+    font-size: 32px;
 }
 div{
     background: orangered
