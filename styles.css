@@ -1,6 +1,7 @@
 body{
     background: black;
     color: white;
+    font-family: "Arbutus", serif;
 }
 header{
     border-bottom: solid 2px blue;
