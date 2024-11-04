@@ -10,7 +10,8 @@ header{
     font-size: 32px;
 }
 div{
-    background: orangered
+    background: orangered;
+    display: flex;
 }
 iframe{
     padding: 20px;
