@@ -2,6 +2,7 @@ body{
     background: black;
     color: white;
     font-family: "Arbutus", serif;
+    display: flex;
 }
 header{
     border-bottom: solid 2px blue;
@@ -11,7 +12,7 @@ header{
 }
 div{
     background: orangered;
-    display: flex;
+
 }
 iframe{
     padding: 20px;
