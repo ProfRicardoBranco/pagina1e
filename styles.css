@@ -34,3 +34,9 @@ h1{
 img{
     height: 200px;
 }
+
+.demaisVideos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
