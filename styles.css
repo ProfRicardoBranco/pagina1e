@@ -30,3 +30,7 @@ h1{
     display: flex;
     justify-content: center;  
 }
+
+img{
+    heigh: 200px;
+}
