@@ -42,17 +42,20 @@ img {
     display: flex;
     overflow-x: auto;
     gap: 10px;
+    position: relative; /* Para posicionar o pseudo-elemento corretamente */
 }
 
 .demaisVideos img{
     opacity: 0.4;
     height: 200px;
+    display: block; /* Garante que a imagem ocupe o espaço corretamente */
 }
 
 .demaisVideos img:hover{
     opacity: 1;
     border: 3px solid green;
     height: 210px;
+    display: block; /* Garante que a imagem ocupe o espaço corretamente */
 
 }
 
@@ -84,4 +87,22 @@ img {
 .close:hover,
 .close:focus {
     color: red;
+}
+
+.video-link {
+    position: relative; /* Necessário para o posicionamento do triângulo */
+}
+
+.video-link::before {
+    content: ''; /* Cria um elemento vazio */
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent; /* Lado esquerdo do triângulo */
+    border-right: 15px solid transparent; /* Lado direito do triângulo */
+    border-bottom: 25px solid white; /* Base do triângulo */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
+    z-index: 1; /* Coloca o triângulo acima da imagem */
 }
