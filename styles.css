@@ -35,7 +35,7 @@ h1 {
 }
 
 img {
-    height: 200px;
+
 }
 
 .demaisVideos {
@@ -44,13 +44,16 @@ img {
     gap: 10px;
 }
 
- img{
+.demaisVideos img{
     opacity: 0.4;
+    height: 200px;
 }
 
- img:hover{
+.demaisVideos img:hover{
     opacity: 1;
     border: 3px solid green;
+    height: 210px;
+
 }
 
 /* Estilos para o modal */
