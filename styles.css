@@ -100,9 +100,9 @@ img {
     left: 50%; /* Centraliza horizontalmente */
     width: 0; 
     height: 0; 
-    border-left: 15px solid transparent; /* Lado esquerdo do triângulo */
-    border-right: 15px solid transparent; /* Lado direito do triângulo */
-    border-bottom: 25px solid white; /* Base do triângulo */
+    border-top: 15px solid transparent; /* Lado superior do triângulo */
+    border-bottom: 15px solid transparent; /* Lado inferior do triângulo */
+    border-left: 25px solid white; /* Base do triângulo, apontando para a direita */
     transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
     z-index: 1; /* Coloca o triângulo acima da imagem */
 }
