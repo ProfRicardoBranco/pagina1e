@@ -91,6 +91,7 @@ img {
 
 .video-link {
     position: relative; /* Necessário para o posicionamento do triângulo */
+    opacity: 1;
 }
 
 .video-link::before {
