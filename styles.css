@@ -44,11 +44,11 @@ img {
     gap: 10px;
 }
 
-.demaisVideos img{
+ img{
     opacity: 0.4;
 }
 
-.demaisVideos img:hover{
+ img:hover{
     opacity: 1;
     border: 3px solid green;
 }
