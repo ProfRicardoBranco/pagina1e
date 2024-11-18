@@ -107,6 +107,8 @@ img {
     align-items: center; /* Centraliza verticalmente */
     transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
     z-index: 0; /* Coloca o retângulo abaixo do triângulo */
+    opacity: 1;
+
 }
 
 .video-link::after {
