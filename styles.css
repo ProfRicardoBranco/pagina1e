@@ -44,6 +44,15 @@ img {
     gap: 10px;
 }
 
+.demaisVideos img{
+    opacity: 0.4;
+}
+
+.demaisVideos img:hover{
+    opacity: 1;
+    border: 3px solid green;
+}
+
 /* Estilos para o modal */
 .modal {
     display: none; /* Oculto por padrão */
